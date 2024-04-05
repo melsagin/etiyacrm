@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: GatewayServer
+server:
+  port: 8020

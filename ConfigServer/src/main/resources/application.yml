@@ -1,5 +1,11 @@
 spring:
   application:
-  name: ConfigServer
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/melsagin/EtiyaCrmConfiguration.git
 server:
   port: 8050
+
